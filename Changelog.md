@@ -1,2 +1,4 @@
 - 1.0
     - Initial Commit
+- 1.1
+    - Add missing track between Raspberry Pi header and the switch

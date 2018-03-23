@@ -31,15 +31,15 @@ LIBS:valves
 LIBS:switches
 LIBS:DCDC_Converter_D-SUN
 LIBS:raspberrypi_hat
-LIBS:RPi_Hat-cache
+LIBS:snd_lcd_rpi_hat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SND LCD RPI HAT"
-Date "2018-03-19"
-Rev "1.0"
+Date "2018-03-23"
+Rev "1.1"
 Comp "Supmeca Never Dies"
 Comment1 "Made by Romain Reignier"
 Comment2 ""
@@ -661,7 +661,6 @@ GPIO2
 NoConn ~ 5150 3350
 NoConn ~ 5150 2350
 NoConn ~ 5150 2250
-NoConn ~ 5150 2150
 NoConn ~ 5150 1950
 NoConn ~ 7050 3050
 NoConn ~ 7050 3350
@@ -1177,4 +1176,8 @@ Wire Wire Line
 	6250 5400 6250 5000
 Wire Wire Line
 	5150 5400 5150 5000
+Text Label 4250 2150 0    60   ~ 0
+SWITCH
+Wire Wire Line
+	5150 2150 4250 2150
 $EndSCHEMATC
